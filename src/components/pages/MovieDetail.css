@@ -1,0 +1,27 @@
+.MovieDetail{
+    padding: 10px;
+}
+
+.MovieDetailMovieName{
+    font-family: 'SingleDay';
+    color: black;
+}
+
+.MovieDetailMovieCountry{
+    font-family: 'SingleDay';
+    color: black;
+
+
+}
+.MovieDetailMovieVote{
+    font-family: 'SingleDay';
+    color: black;
+
+
+}
+.MovieDetailMovieOverview{
+    font-family: 'SingleDay';
+    color: black;
+
+ 
+}

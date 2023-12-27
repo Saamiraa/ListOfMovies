@@ -1,0 +1,15 @@
+.movieContainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+img{
+    width: 200px;
+    height: 220px;
+    border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
+    border: 3px solid #333333;
+    cursor: pointer;
+}

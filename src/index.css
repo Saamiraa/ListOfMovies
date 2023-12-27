@@ -1,0 +1,22 @@
+body {
+    background-color: black
+}
+@font-face {
+    font-family: 'KanitBold';
+    src: url('./fonts/Kanit-Bold.ttf');
+}
+@font-face {
+    font-family: 'KanitMedium';
+    src: url('./fonts/Kanit-MediumItalic.ttf');
+}
+@font-face {
+    font-family: 'KanitThinItalic';
+    src: url('./fonts/Kanit-ThinItalic.ttf');
+}
+@font-face {
+    font-family: 'SingleDay';
+    src: url('./fonts/SingleDay-Regular.ttf');
+}
+
+
+
