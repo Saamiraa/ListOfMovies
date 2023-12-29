@@ -1,4 +1,4 @@
-.headerContainer {
+.movieLayoutContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -6,13 +6,13 @@
     background-color: rgb(241, 237, 232);
 }
 
-h3 {
+.movieLayoutHeader {
     font-family: 'SingleDay';
     font-size: 30px;
     margin: 0;
     padding: 0;
 }
-.pragraph{
+.movieLayoutContext{
     font-family: 'SingleDay';
     font-size: 25px;
     margin: 0;

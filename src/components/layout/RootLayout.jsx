@@ -5,8 +5,8 @@ import './RootLayout.css'
 function RootLayout() {
     return (
         <Fragment>
-            <header>
-                <h1>ORIENTAL THEATRE</h1>
+            <header className="rootContainer">
+                <h1 className="rootHeader">ORIENTAL THEATRE</h1>
                 <nav className="navBar">
                     <NavLink to='/'>Home</NavLink>
                     <NavLink to='movies'>ListOfMovies</NavLink>

@@ -3,9 +3,9 @@ import './MovieLayout.css'
 
 function MovieLayout() {
     return (
-        <div className="headerContainer">
-            <h3>Here Are UpComing Movies</h3>
-            <p className="pragraph">Click on any photo for more information and reservations</p>
+        <div className="movieLayoutContainer">
+            <h3 className="movieLayoutHeader">Here Are UpComing Movies</h3>
+            <p className="movieLayoutContext">Click on any photo for more information and reservations</p>
             <Outlet />
         </div>
     )

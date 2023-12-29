@@ -22,7 +22,7 @@ function ListOfMovies() {
         <div className="movieContainer">
             {movies.map((movie) => (
                 <NavLink to={movie.id.toString()} key={movie.id}>
-                    <img src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} />
+                    <img className="movieContainerImg" src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} />
                 </NavLink>
             ))}
         </div>
