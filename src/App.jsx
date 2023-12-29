@@ -5,6 +5,8 @@ import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } 
 import MovieLayout from "./components/layout/MovieLayout";
 import MovieDetail from "./components/pages/MovieDetail";
 import { movieDetailLoader } from "./components/pages/MovieDetail";
+import { moviesLoader } from "./components/pages/ListOfMovies";
+
 
 
 const router = createBrowserRouter(
@@ -12,7 +14,7 @@ const router = createBrowserRouter(
     <Route path="/" element={<RootLayout />}>
       <Route index element={<Home />} />
       <Route path="Movies" element={<MovieLayout />}>
-        <Route index element={<ListOfMovies />} />
+        <Route index element={<ListOfMovies />} loader={moviesLoader} />
         <Route path=":id" element={<MovieDetail />} loader={movieDetailLoader} />
       </Route>
     </Route>

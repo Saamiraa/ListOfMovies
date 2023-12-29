@@ -2,11 +2,9 @@ import { useLoaderData, useParams } from "react-router-dom"
 import './MovieDetail.css'
 
 function MovieDetail() {
-
     // eslint-disable-next-line no-unused-vars
     useParams()
     const movie = useLoaderData()
-    console.log(movie)
 
     return (
         <div className="MovieDetail">
